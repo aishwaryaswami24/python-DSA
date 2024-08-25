@@ -7,3 +7,12 @@ class Car:
 
 mycar= Car('BMW','blue')
 print(mycar.color,mycar.model)
+
+#without constructor
+class Car:
+    pass
+
+mycar=Car()
+
+mycar.color='blue'
+print(mycar.color)
