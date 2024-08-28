@@ -12,3 +12,4 @@ my_car=Car('Bullet','Black')
 
 print(my_car.check_colour())
 print(my_car.model)
+print(my_car.colour)
