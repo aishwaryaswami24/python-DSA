@@ -1,3 +1,4 @@
+#base class
 class Animal:
     def __init__(self,name):
         self.name=name
@@ -5,6 +6,8 @@ class Animal:
     def eat(self):
         return f"{self.name}, is my dog"
 
+
+#derived class
 class Dog(Animal):
     def bark(self):
         return f"{self.name}, is barking for new guest"
