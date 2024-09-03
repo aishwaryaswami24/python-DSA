@@ -9,5 +9,7 @@ B = [1, 2, 1]
 # else:
 #     print('not identical')
 
+#using set
+#set remove duplicate values
 identical_numbers=(set(A) & set(B))
 print(identical_numbers)
