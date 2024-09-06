@@ -17,4 +17,4 @@ elif name=="Shubham":
 elif name=="Ratndeep":
     print("UST")
 else:
-    print("DB empty")
+    print("unknown")
