@@ -9,12 +9,21 @@
 
 #2nd way
 
+# name=input('what is your name: ')
+# if name=="Aishwarya":
+#     print("TCS")
+# elif name=="Shubham":
+#     print("UST")
+# elif name=="Ratndeep":
+#     print("UST")
+# else:
+#     print("unknown")
+
+#3rd way
 name=input('what is your name: ')
-if name=="Aishwarya":
+if name=="Shubham" or  "Ratndeep":
+    print("UST")
+elif name=="Aishwarya":
     print("TCS")
-elif name=="Shubham":
-    print("UST")
-elif name=="Ratndeep":
-    print("UST")
 else:
     print("unknown")
