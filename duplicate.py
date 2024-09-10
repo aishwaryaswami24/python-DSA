@@ -9,3 +9,7 @@ print(unique_no)
 
 print(f"Duplicates values removed from the list")
 
+#Using dict.fromkeys()
+lst1=[1,2,3,4,4,9,9,9,4]
+
+
