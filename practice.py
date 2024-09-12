@@ -10,4 +10,7 @@ B=[3,2,2,2,1]
 C=list((set(A)&set(B)))
 print(C)
 
-
+#duplicate remove
+D=[1,2,2,2,2,2,4,5,6]
+D=list(set(D))
+print(D)
