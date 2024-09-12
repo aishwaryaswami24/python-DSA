@@ -14,3 +14,11 @@ print(C)
 D=[1,2,2,2,2,2,4,5,6]
 D=list(set(D))
 print(D)
+
+
+#reverse
+def reverse_str(s):
+    return s[::-1]
+s='Priya'
+print('Original string:',s)
+print('Reverse string:',reverse_str(s))
