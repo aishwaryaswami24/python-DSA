@@ -32,3 +32,9 @@ if palindrome(p) is False:
     print('Given string is not a palindrome')
 else:
     print('Given string is palindrome')
+
+#reverse words
+def reverse_words(w):
+    return ' '.join(w.split()[::-1])
+w='Hello Aish'
+print(reverse_words(w))
