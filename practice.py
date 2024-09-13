@@ -59,3 +59,9 @@ def reverse_words(w):
 
 w="Hello Words"
 print('Reverse words:',reverse_words(w))
+
+#lambda
+
+add=lambda x,y:x+y
+addition=add(3,4)
+print(addition)
