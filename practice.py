@@ -79,3 +79,20 @@ def is_even(n):
     return n%2==0
 
 main()
+
+
+#2nd way to find out even odd no
+def main():
+    Q=int(input('Enter interger: '))
+    if is_even(Q):
+     print('Even')
+    else:
+     print('Odd')
+
+def is_even(n):
+    if n%2==0:
+        return True
+    else:
+        return False
+
+main()
