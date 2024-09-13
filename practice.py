@@ -38,3 +38,17 @@ def reverse_words(w):
     return ' '.join(w.split()[::-1])
 w='Hello Aish'
 print(reverse_words(w))
+
+
+#palindrome
+
+def palindrome(p):
+    return p==p[::-1]
+p='madam'
+print('Palindrome:',palindrome(p))
+
+#reverse
+def reverse_str(r):
+    return r[::-1]
+r='SKNCOE'
+print('Reverse string:',reverse_str(r))
