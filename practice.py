@@ -103,3 +103,8 @@ T=[1,1,4]
 
 identical=list((set(Q)&set(T)))
 print(identical)
+
+#true or false
+a=[1,2,3]
+b=a
+print(a is b)
