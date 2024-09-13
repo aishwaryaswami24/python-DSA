@@ -52,3 +52,10 @@ def reverse_str(r):
     return r[::-1]
 r='SKNCOE'
 print('Reverse string:',reverse_str(r))
+
+#reverse words
+def reverse_words(w):
+    return
+
+w="Hello Words"
+print('Reverse words:',reverse_words(w))
