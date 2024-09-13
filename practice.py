@@ -96,3 +96,10 @@ def is_even(n):
         return False
 
 main()
+
+#identical
+Q=[1,2,3]
+T=[1,1,4]
+
+identical=list((set(Q)&set(T)))
+print(identical)
