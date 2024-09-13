@@ -108,3 +108,6 @@ print(identical)
 a=[1,2,3]
 b=a
 print(a is b)
+
+c=list(a)
+print(a is c)
