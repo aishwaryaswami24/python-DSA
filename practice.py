@@ -55,7 +55,7 @@ print('Reverse string:',reverse_str(r))
 
 #reverse words
 def reverse_words(w):
-    return
+    return ' '.join(w.split()[::-1])
 
 w="Hello Words"
 print('Reverse words:',reverse_words(w))
