@@ -65,3 +65,17 @@ print('Reverse words:',reverse_words(w))
 add=lambda x,y:x+y
 addition=add(3,4)
 print(addition)
+
+#even odd
+
+def main():
+    x=int(input('write a number: '))
+    if is_even(x):
+        print('Even')
+    else:
+        print('Odd')
+
+def is_even(n):
+    return n%2==0
+
+main()
