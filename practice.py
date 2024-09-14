@@ -111,3 +111,5 @@ print(a is b)
 
 c=list(a)
 print(a is c)
+
+#occrance of string
