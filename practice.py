@@ -113,3 +113,5 @@ c=list(a)
 print(a is c)
 
 #occrance of string
+
+str='Aishwaryaswamiaishwaryaswami'
