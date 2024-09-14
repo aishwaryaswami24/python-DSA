@@ -114,4 +114,11 @@ print(a is c)
 
 #occrance of string
 
-str='Aishwaryaswamiaishwaryaswami'
+test_str='Aishwaryaswamiaishwaryaswami'
+
+count=0
+for i in test_str:
+    if i==a:
+        count=count+1
+print('occrance of a:',str(count))
+
