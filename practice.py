@@ -114,11 +114,9 @@ print(a is c)
 
 #occrance of string
 
-test_str='Aishwaryaswamiaishwaryaswami'
-
+test_str="aishwaryaswami"
 count=0
 for i in test_str:
-    if i=='a':
+    if i=='i':
         count=count+1
-print('occrance of a:',str(count))
-
+print('occrance of i:',str(count))
