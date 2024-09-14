@@ -120,3 +120,10 @@ for i in test_str:
     if i=='i':
         count=count+1
 print('occrance of i:',str(count))
+
+#Check if the string contains only digits.
+def string_contains(s):
+    return s.isdigit()
+
+s='123456'
+print('string contains:',string_contains(s))
