@@ -197,3 +197,9 @@ print(a is b)
 
 c=list(a)
 print(c is a)
+
+#is_digit
+def is_digit(h):
+    return h.isdigit()
+h='12345aish'
+print('is str contains digit:',is_digit(h))
