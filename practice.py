@@ -220,4 +220,13 @@ addition=lambda x,y:x+y
 print(addition(2,5))
 
 
+#json
+import json
+jsn='{"id": 1234, "name": "Aishwarya"}'
+data=json.loads(jsn)
+print('id is:',data['id'])
+print('name is:',data['name'])
+
+
+
 
