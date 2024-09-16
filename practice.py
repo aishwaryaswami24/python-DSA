@@ -188,3 +188,12 @@ def is_even(o):
         return False
 
 main()
+
+#True or False
+
+a=[1,2,1]
+b=a
+print(a is b)
+
+c=list(a)
+print(c is a)
