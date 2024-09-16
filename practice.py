@@ -160,3 +160,9 @@ def palindrome(k):
     return k==k[::-1]
 k='madam'
 print('palindrome:',palindrome(k))
+
+#identical
+V=[1,2,0,7]
+B=[7,1,0,0]
+
+print(list(set(V)&set(B)))
