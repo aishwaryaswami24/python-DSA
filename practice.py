@@ -203,3 +203,15 @@ def is_digit(h):
     return h.isdigit()
 h='12345aish'
 print('is str contains digit:',is_digit(h))
+
+#str occrance
+
+
+strr='aishswamiaishaish'
+
+count=0
+for i in strr:
+    if i=='a':
+        count=count+1
+print('occrance of a:',str(count))
+
