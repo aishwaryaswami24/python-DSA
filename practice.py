@@ -171,3 +171,20 @@ print(list(set(V)&set(B)))
 
 Dup=['Aish','Aishw','Aish']
 print(list(set(Dup)))
+
+
+#even_odd
+def main():
+    y=int(input('Enter value:'))
+    if is_even(y):
+        print('Even')
+    else:
+        print('Odd')
+
+def is_even(o):
+    if o%2==0:
+        return True
+    else:
+        return False
+
+main()
