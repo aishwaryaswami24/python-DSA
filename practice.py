@@ -215,3 +215,9 @@ for i in strr:
         count=count+1
 print('occrance of a:',str(count))
 
+#lambda
+addition=lambda x,y:x+y
+print(addition(2,5))
+
+
+
