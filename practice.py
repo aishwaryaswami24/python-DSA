@@ -148,3 +148,10 @@ l='hello world'
 print('reverse_string:',reverse_str(l))
 
 
+#reverse words
+def reverse_words(f):
+    return ' '.join(f.split()[::-1])
+f='hello world'
+print('reverse words:',reverse_words(f))
+
+
