@@ -155,3 +155,8 @@ f='hello world'
 print('reverse words:',reverse_words(f))
 
 
+#palindrome
+def palindrome(k):
+    return k==k[::-1]
+k='madam'
+print('palindrome:',palindrome(k))
