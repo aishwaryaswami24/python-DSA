@@ -227,6 +227,8 @@ data=json.loads(jsn)
 print('id is:',data['id'])
 print('name is:',data['name'])
 
+#print
+name=input('what is your name')
 
 
 
