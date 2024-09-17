@@ -229,6 +229,8 @@ print('name is:',data['name'])
 
 #print
 name=input('what is your name')
+print('Hello World',name)
+
 
 
 
