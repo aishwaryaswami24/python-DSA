@@ -230,7 +230,8 @@ print('name is:',data['name'])
 #print
 name=input('what is your name')
 print('Hello World',name)
-print('Hello Worlds'+name)
+print('Hello Worlds '+name)
+print(f'Hello World {name}')
 
 
 
