@@ -237,5 +237,6 @@ print(f'Hello World {name}')
 #float to round
 x=float(input('enter value: '))
 y=float(input('enter value: '))
+add=round(x+y)
 
 
