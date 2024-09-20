@@ -32,3 +32,5 @@ x='pqr'
 y=True
 print(x+str(y))
 print(x+str(not y))
+
+#lower
