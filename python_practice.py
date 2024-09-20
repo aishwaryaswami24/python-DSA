@@ -12,5 +12,8 @@ y=24
 print(x+str(y))
 print(x,str(y))
 
-#add int and str
+#add int and str:TypeError
+x='abc'
+y=5
+print(x+y)
 
