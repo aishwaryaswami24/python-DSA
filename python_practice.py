@@ -36,3 +36,10 @@ print(x+str(not y))
 #lower
 a='AISHwarya'
 print(a.lower())
+
+#
+def func():
+    x=1
+x=2
+func()
+print(x)
