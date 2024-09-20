@@ -246,7 +246,7 @@ print(add)
 #print
 
 def hello(self='world'):
-    print(f'hello:',self)
+    print(f'hello:{self}')
 name=input('what is your name:')
 print('Your name is:',name)
 hello(name)
