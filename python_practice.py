@@ -26,3 +26,8 @@
 def func():
     pass
 func()
+
+#str bool
+x='pqr'
+y=True
+print(x+str(y))
