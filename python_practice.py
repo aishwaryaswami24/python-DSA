@@ -55,3 +55,7 @@ def func():
 x=2
 func()
 print(x)
+
+#capitalize
+x='aISH SWAMI'
+print(x.capitalize())
