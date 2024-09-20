@@ -18,6 +18,11 @@
 # print(x+y)
 
 #boolean True & False
-x='xyz'
-y=True
-print(x+y)
+# x='xyz'
+# y=True
+# print(x+y)
+
+#pass
+def func():
+    pass
+func()
