@@ -47,3 +47,11 @@ print(x)
 #upper
 d='SHUbham'
 print(d.upper())
+
+#global
+def func():
+    global x
+    x=1
+x=2
+func()
+print(x)
