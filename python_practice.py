@@ -34,3 +34,5 @@ print(x+str(y))
 print(x+str(not y))
 
 #lower
+a='AISHwarya'
+print(a.lower())
