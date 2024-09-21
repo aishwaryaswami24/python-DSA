@@ -4,7 +4,7 @@ print(now)
 
 #time
 import time
-tme=time.tme()
+tme=time.strftime('%H:%M:%S',time.localtime())
 print(tme)
 
 #Python’s math library provides a built-in function factorial() that can compute the factorial of a number.
