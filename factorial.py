@@ -5,6 +5,7 @@ print(now)
 #time
 import time
 tme=time.tme()
+print(tme)
 
 #Python’s math library provides a built-in function factorial() that can compute the factorial of a number.
 import math
