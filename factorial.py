@@ -6,3 +6,5 @@ print(now)
 import math
 num=int(input('Enter the number:'))
 print(f'Factorial of {num} is:{math.factorial(num)}')
+
+#it will raise a ValueError if you input a negative number.
