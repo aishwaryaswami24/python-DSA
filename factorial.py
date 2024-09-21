@@ -2,6 +2,10 @@ from datetime import datetime
 now=datetime.now()
 print(now)
 
+#time
+import time
+tme=time.tme()
+
 #Python’s math library provides a built-in function factorial() that can compute the factorial of a number.
 import math
 num=int(input('Enter the number:'))
