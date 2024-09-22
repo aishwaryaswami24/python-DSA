@@ -48,6 +48,14 @@ print(str.replace('1','One',1))
 
 #find
 text='har war bar'
-print(text.find('bar'))
+# print(text.find('bar'))
+i=text.find('bar',6)
+print(i)
 #means bar str starting index number it returns
 #find() string method return the index of the first occurrence of a substring
+
+#_doc_
+def text():
+    '''doc'''
+    '''hello'''
+print(text.__doc__)
