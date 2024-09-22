@@ -33,7 +33,11 @@
 # print(name)
 
 #range
-for i in range(4)
+for i in range(4):
     print(i)
 else:
     print('end')
+
+#replace
+str='1AISH1'
+print(str.replace('1','One'))
