@@ -10,21 +10,21 @@
 #
 
 #2nd way:
-x=int(input('Enter value1: '))
-y=int(input('Enter value2: '))
+# x=int(input('Enter value1: '))
+# y=int(input('Enter value2: '))
+#
+# if x>y or x<y:
+#     print('x is not equal to y')
+# else:
+#     print('x is equal to y')
 
-if x>y or x<y:
-    print('x is not equal to y')
-else:
-    print('x is equal to y')
 
-
-#strip
-name=input('enter your name:')
-#name=name.strip()
-#name=name.lstrip()
-name=name.rstrip()
-print(name)
+# #strip
+# name=input('enter your name:')
+# #name=name.strip()
+# #name=name.lstrip()
+# name=name.rstrip()
+# print(name)
 
 
 #capitalize
