@@ -28,6 +28,12 @@
 
 
 #capitalize
-name=input('enter your name:')
-name=name.capitalize()
-print(name)
+# name=input('enter your name:')
+# name=name.capitalize()
+# print(name)
+
+#range
+for i in range(4)
+    print(i)
+else:
+    print('end')
