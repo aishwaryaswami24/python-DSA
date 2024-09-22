@@ -48,10 +48,10 @@ print(str.replace('1','One',1))
 
 #find
 text='har war bar'
-# print(text.find('bar'))
-i=text.find('bar',6)
+print(text.find('bar')) #it returns starting index number
+i=text.find('bar',9) #Start searching from index 9
 print(i)
-#means bar str starting index number it returns
+#it returns starting index number
 #find() string method return the index of the first occurrence of a substring
 
 #_doc_
@@ -59,3 +59,8 @@ def text():
     '''doc'''
     '''hello'''
 print(text.__doc__)
+
+
+print('Hello',end='111')
+print('Hello')
+#1st print did not end on new line it remains on same line so 2nd print continued with the same line
