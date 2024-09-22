@@ -33,11 +33,15 @@
 # print(name)
 
 #range
-for i in range(4):
-    print(i)
-else:
-    print('end')
+# for i in range(4):
+#     print(i)
+# else:
+#     print('end')
 
 #replace
-str='1AISH1'
+str='11AISH1'
 print(str.replace('1','One'))
+print(str.replace('1','One',0))
+print(str.replace('1','One',1))
+#here we have provided count 0 then it will not replace 1 by One
+#if you give count=1 then it will replace only one occrance
