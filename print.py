@@ -45,3 +45,8 @@ print(str.replace('1','One',0))
 print(str.replace('1','One',1))
 #here we have provided count 0 then it will not replace 1 by One
 #if you give count=1 then it will replace only one occrance
+
+#find
+text='har war bar'
+print(text.find('bar'))
+#find() string method return the index of the first occurrence of a substring
