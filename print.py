@@ -30,3 +30,4 @@ print(name)
 #capitalize
 name=input('enter your name:')
 name=name.capitalize()
+print(name)
