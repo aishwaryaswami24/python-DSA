@@ -25,3 +25,7 @@ name=input('enter your name:')
 #name=name.lstrip()
 name=name.rstrip()
 print(name)
+
+
+#capitalize
+name=input('enter your name:')
