@@ -49,4 +49,5 @@ print(str.replace('1','One',1))
 #find
 text='har war bar'
 print(text.find('bar'))
+#means bar str starting index number it returns
 #find() string method return the index of the first occurrence of a substring
