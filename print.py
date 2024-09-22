@@ -21,3 +21,5 @@ else:
 
 #strip
 name=input('enter your name:')
+name=name.strip()
+print(name)
