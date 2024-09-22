@@ -21,6 +21,7 @@ else:
 
 #strip
 name=input('enter your name:')
-name=name.strip()
-name=name.lstrip()
+#name=name.strip()
+#name=name.lstrip()
+name=name.rstrip()
 print(name)
