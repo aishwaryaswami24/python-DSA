@@ -64,3 +64,5 @@ print(text.__doc__)
 print('Hello',end='111')
 print('Hello')
 #1st print did not end on new line it remains on same line so 2nd print continued with the same line
+
+#syntax error
