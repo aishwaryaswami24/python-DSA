@@ -19,7 +19,7 @@
 def factorial_num(n):
     if n == 0 or 1:
         return 1
-   else:
+    else:
         n * n - 1
 
 num = int(input('Enter value:'))
