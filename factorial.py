@@ -18,3 +18,5 @@
 #factorial 2nd way
 def factorial_num(n):
     if n == 0 or 1:
+
+
