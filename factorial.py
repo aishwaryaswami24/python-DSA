@@ -22,4 +22,6 @@ def factorial_num(n):
    else:
         n * n - 1
 
+num = int(input('Enter value:'))
+
 
