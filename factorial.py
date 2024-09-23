@@ -17,10 +17,10 @@
 
 #factorial 2nd way
 def factorial_num(n):
-    if n == 0 or 1:
+    if n == 0 or n==1:
         return 1
     else:
-        n * factorial_num(n - 1)
+        return n * factorial_num(n - 1)
 
 num = int(input('Enter value:'))
 print(f'Factorial of num:',factorial_num(num))
