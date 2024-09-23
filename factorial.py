@@ -16,4 +16,5 @@
 
 
 #factorial 2nd way
+def factorial_num(n):
 
