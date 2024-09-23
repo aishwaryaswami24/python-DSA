@@ -23,4 +23,4 @@ def factorial_num(n):
         n * n - 1
 
 num = int(input('Enter value:'))
-print(f'Factorial of {num}:',factorial_num(n))
+print(f'Factorial of {num}:',{factorial_num(num)})
