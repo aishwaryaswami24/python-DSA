@@ -20,7 +20,7 @@ def factorial_num(n):
     if n == 0 or 1:
         return 1
     else:
-        n * n - 1
+        n * factorial_num(n - 1)
 
 num = int(input('Enter value:'))
-print(f'Factorial of {num}:',{factorial_num(num)})
+print(f'Factorial of num:',{factorial_num(num)})
