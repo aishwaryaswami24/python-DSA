@@ -85,3 +85,6 @@ print(t[1::-1])
 #// is a floor division operator, division rounded down
 a=5//3
 print(a)
+
+#print
+a=[1]
