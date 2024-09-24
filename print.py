@@ -66,27 +66,28 @@
 #1st print did not end on new line it remains on same line so 2nd print continued with the same line
 
 #syntax error/#recursion error
-def func():
+# def func():
 
-    func()
-
-#slicing
-t='AaBbCcDd'
-print(t[::2])
-print(t[1::2])
-# t[::2] picks every second character starting from index 0, giving "ABC".
-# t[1::2] picks every second character starting from index 1, giving "aBd".
-
-#t[start:stop:step]
-t='12345'
-print(t[1::-1])
-
-
-#// is a floor division operator, division rounded down
-a=5//3
-print(a)
+#     func()
+#
+# #slicing
+# t='AaBbCcDd'
+# print(t[::2])
+# print(t[1::2])
+# # t[::2] picks every second character starting from index 0, giving "ABC".
+# # t[1::2] picks every second character starting from index 1, giving "aBd".
+#
+# #t[start:stop:step]
+# t='12345'
+# print(t[1::-1])
+#
+#
+# #// is a floor division operator, division rounded down
+# a=5//3
+# print(a)
 
 #print
 a=[1]
 b=[0,a]
 print(b)
+c=[0,b]
