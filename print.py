@@ -91,3 +91,5 @@ a=[1]
 b=[0,a]
 print(b)
 c=[0,b]
+print(c)
+print(a in b)
