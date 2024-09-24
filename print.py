@@ -89,3 +89,4 @@ print(a)
 #print
 a=[1]
 b=[0,a]
+print(b)
