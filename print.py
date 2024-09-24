@@ -94,3 +94,4 @@ c=[0,b]
 print(c)
 print(a in b)
 print(a in c)
+print(a in c[1])
