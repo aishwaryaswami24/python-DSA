@@ -86,12 +86,19 @@
 # a=5//3
 # print(a)
 
+# #print
+# a=[1]
+# b=[0,a]
+# print(b)
+# c=[0,b]
+# print(c)
+# print(a in b)
+# print(a in c)
+# print(a in c[1])
+
 #print
 a=[1]
-b=[0,a]
+b=[a]
 print(b)
-c=[0,b]
-print(c)
 print(a in b)
-print(a in c)
-print(a in c[1])
+
