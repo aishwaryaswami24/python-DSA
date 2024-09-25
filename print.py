@@ -97,8 +97,21 @@
 # print(a in c[1])
 
 #print
-a=[1]
-b=[a]
-print(b)
-print(a in b)
+# a=[1]
+# b=[a]
+# print(b)
+# print(a in b)
+# c=[b]
+# print(c)
+# print(a in c)
+# print(a in c[0])
+
+
+
+#reverse words
+def reverse_word(s):
+    return ' '.join(s.split()[::-1])
+
+s='hello world'
+print(reverse_word(s))
 
