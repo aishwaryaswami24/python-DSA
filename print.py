@@ -116,3 +116,8 @@ def reverse_word(s):
 s='madam'
 print(reverse_word(s))
 
+score=int(input('what is your score:'))
+if 90 <= score >= 100:
+    print('pass')
+else:
+    print('fail')
