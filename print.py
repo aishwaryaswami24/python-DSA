@@ -109,15 +109,19 @@
 
 
 #reverse words
-def reverse_word(s):
-    #return ' '.join(s.split()[::-1])
-    return s==s[::-1]
+# def reverse_word(s):
+#     #return ' '.join(s.split()[::-1])
+#     return s==s[::-1]
+#
+# s='madam'
+# print(reverse_word(s))
+#
+# score=int(input('what is your score:'))
+# if 90 <= score >= 100:
+#     print('pass')
+# else:
+#     print('fail')
 
-s='madam'
-print(reverse_word(s))
+# print('hello',end='111')
+# print('hello')
 
-score=int(input('what is your score:'))
-if 90 <= score >= 100:
-    print('pass')
-else:
-    print('fail')
