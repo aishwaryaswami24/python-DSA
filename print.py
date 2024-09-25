@@ -8,6 +8,7 @@
 # else:
 #     print('x is equal to y')
 #
+import copy
 
 #2nd way:
 # x=int(input('Enter value1: '))
@@ -125,3 +126,9 @@
 # print('hello',end='111')
 # print('hello')
 
+a=[1]
+b=[0,a]
+c=copy.deepcopy(b)
+
+print(c is b)
+print(c[1] is b[1] is a)
