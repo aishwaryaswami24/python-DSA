@@ -110,8 +110,9 @@
 
 #reverse words
 def reverse_word(s):
-    return ' '.join(s.split()[::-1])
+    #return ' '.join(s.split()[::-1])
+    return s==s[::-1]
 
-s='hello world'
+s='madam'
 print(reverse_word(s))
 
