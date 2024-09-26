@@ -7,6 +7,7 @@ for i in lst:
     if i%2==0:
         even_count +=1
     else:
-        even_count +=1
+        odd_count +=1
 
 print('Even count is:',even_count)
+print('Odd count is:',odd_count)
