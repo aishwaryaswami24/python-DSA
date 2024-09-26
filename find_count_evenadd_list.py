@@ -8,3 +8,5 @@ for i in lst:
         even_count +=1
     else:
         even_count +=1
+
+print('Even count is:',even_count)
