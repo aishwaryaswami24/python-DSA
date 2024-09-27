@@ -25,7 +25,7 @@ for i in lst1:
     else:
         odd_count +=1
 
-print('Even count is:')
+print('Even count is:',even_count)
 
 
 
