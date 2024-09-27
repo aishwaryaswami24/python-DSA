@@ -128,7 +128,14 @@ import copy
 
 a=[1]
 b=[0,a]
+print(b)
 c=copy.deepcopy(b)
+print(c)
 
 print(c is b)
 print(c[1] is b[1] is a)
+
+a[0]='X'
+print(a)
+c[1][0]='Y'
+print(c)
