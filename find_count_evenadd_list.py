@@ -26,6 +26,7 @@ for i in lst1:
         odd_count +=1
 
 print('Even count is:',even_count)
+print('Odd count is:')
 
 
 
