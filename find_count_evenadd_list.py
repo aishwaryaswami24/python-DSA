@@ -19,6 +19,8 @@ lst1=[1,2,3,45,6]
 even_count=0
 odd_count=0
 
+for i in lst1:
+    if i%2==0
 
 
 
