@@ -15,6 +15,10 @@ n=6
 
 i=1
 while i <=n:
-    print('*',*1)
-    i -=1
+    print('*',* 1)
+    i -= 1
+
+i=n-1
+while i >0:
+
 
