@@ -11,3 +11,32 @@ for i in lst:
 
 print('Even count is:',even_count)
 print('Odd count is:',odd_count)
+
+
+#print count of even and odd from list
+lst1=[1,2,3,45,6]
+
+even_count=0
+odd_count=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
