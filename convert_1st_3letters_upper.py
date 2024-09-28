@@ -9,6 +9,3 @@ end: The ending index (exclusive) of the slice.
 If you leave out end, it defaults to the length of the string (the end of the string).'''
 
 
-str='aishwarya swami'
-modified_str=str[:3].upper()+str[3:].lower()
-print(modified_str)
