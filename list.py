@@ -36,5 +36,16 @@ print(odd_lst)
 
 
 ##two list find duplicates from it
-lst1=[1,2,3]
-lst2=[2,3,4]
+lst1=[1,2,3,3,4,5,6]
+lst2=[2,3,4,0,9,0,4]
+
+duplicates=[]
+
+for i in lst1:
+    if i in lst2:
+        duplicates.append(i)
+print(duplicates)
+
+#
+# duplicates=set(lst1).intersection(lst2)
+# print(duplicates)
