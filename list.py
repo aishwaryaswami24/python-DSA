@@ -13,6 +13,7 @@ for i in lst:
 
 
 print(seen)
+#converted set to list
 print('seen list:',list(seen))
 print(duplicates)
 print('duplicates list:',list(duplicates))
