@@ -19,7 +19,7 @@ print('seen list:',list(seen))
 print('duplicates list:',list(duplicates))
 
 
-#find out even values in list and print
+#find out even & odd values in list and print
 lst=[1,2,3,4,5,6]
 
 even_lst=[]
