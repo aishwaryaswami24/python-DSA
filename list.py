@@ -33,3 +33,8 @@ for i in lst:
 
 print(even_lst)
 print(odd_lst)
+
+
+##two list find duplicates from it
+lst1=[1,2,3]
+lst2=[2,3,4]
