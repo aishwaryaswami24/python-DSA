@@ -12,8 +12,15 @@ for i in lst:
         seen.add(i)
 
 
-print(seen)
+#print(seen)
 #converted set to list
 print('seen list:',list(seen))
-print(duplicates)
+#print(duplicates)
 print('duplicates list:',list(duplicates))
+
+
+#find out even values in list and print
+lst=[1,2,3,4,5,6]
+
+even_lst=[]
+
