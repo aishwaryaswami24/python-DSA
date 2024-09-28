@@ -53,7 +53,7 @@ duplicates=set(lst1).intersection(lst2)
 print(list(duplicates))
 
 
-#finaout duplicates from single list
+#findout duplicates from single list
 lst=[1,2,3,3,4,5,1,1]
 print(set(lst))#removed duplicates from list
 
