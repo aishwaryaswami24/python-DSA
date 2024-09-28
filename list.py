@@ -35,8 +35,8 @@ print(even_lst)
 print(odd_lst)
 
 
-##two list find duplicates from it
-lst1=[1,2,3,3,4,5,6]
+#two list find duplicates from it
+lst1=[1,2,3,4,5,6]
 lst2=[2,3,4,0,9,0,4]
 
 duplicates=[]
@@ -46,6 +46,9 @@ for i in lst1:
         duplicates.append(i)
 print(duplicates)
 
-#
-# duplicates=set(lst1).intersection(lst2)
-# print(duplicates)
+#2nd way
+lst1=[1,2,3,5,6]
+lst2=[2,3,4,6,1]
+duplicates=set(lst1).intersection(lst2)
+print(list(duplicates))
+
