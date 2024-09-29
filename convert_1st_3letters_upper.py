@@ -16,6 +16,11 @@ s='aishwarya swami'
 convert=s[:3].upper()+s[3:].lower()
 print(convert)
 
+lst=[1,2,3,3,2,3]
+
+
+lst=set(lst)
+print(lst)
 
 
 
