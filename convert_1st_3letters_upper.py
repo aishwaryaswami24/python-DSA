@@ -17,10 +17,18 @@ convert=s[:3].upper()+s[3:].lower()
 print(convert)
 
 lst=[1,2,3,3,2,3]
-
-
+seen=set()
+dup=set()
+for i in lst:
+    if i in seen:
+        dup.add(i)
+    else:
+        seen.add(i)
+print(list(dup))
+#removed duplicates
 lst=set(lst)
 print(lst)
+
 
 
 
