@@ -32,8 +32,8 @@ print(lst)
 #even&odd
 ls=[1,2,3,4,5,6]
 
-ls1=[]
-ls2=[]
+even_ls1=[]
+odd_ls2=[]
 for i in ls:
     if i%2==0:
         ls1.append(i)
