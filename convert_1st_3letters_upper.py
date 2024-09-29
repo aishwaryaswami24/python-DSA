@@ -29,6 +29,10 @@ print(list(dup))
 lst=set(lst)
 print(lst)
 
+#even&odd
+ls=[1,2,3,4,5,6]
+
+
 
 
 
