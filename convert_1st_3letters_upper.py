@@ -33,14 +33,14 @@ print(lst)
 ls=[1,2,3,4,5,6]
 
 ls1=[]
+ls2=[]
 for i in ls:
-
-
-
     if i%2==0:
         ls1.append(i)
-
+    else:
+        ls2.append(i)
 print(ls1)
+print(ls2)
 
 
 
