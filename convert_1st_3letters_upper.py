@@ -36,11 +36,11 @@ even_ls1=[]
 odd_ls2=[]
 for i in ls:
     if i%2==0:
-        ls1.append(i)
+        even_ls1.append(i)
     else:
-        ls2.append(i)
-print(ls1)
-print(ls2)
+        odd_ls2.append(i)
+print(even_ls1)
+print(odd_ls2)
 
 
 
