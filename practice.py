@@ -271,3 +271,6 @@ while i>0:
 s='Priya Swami'
 convert= s[:3].upper()+s[3:].lower()
 print(convert)
+
+convert1=s[:4].lower()+s[4:].upper()
+print(convert1)
