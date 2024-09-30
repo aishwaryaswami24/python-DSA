@@ -261,4 +261,4 @@ while i>=n:
     print('*'*i)
     i += 1
 
-i
+i=n-1
