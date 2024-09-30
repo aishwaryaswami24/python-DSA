@@ -14,7 +14,7 @@
 n=5
 
 while i<=n:
-    print('*'*i)
+    print('*'*0)
     i +=1
 
 i=n-1
