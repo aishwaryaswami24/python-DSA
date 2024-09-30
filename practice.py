@@ -262,5 +262,12 @@ while i<=n:
     i += 1
 
 i=n-1
-while i>n:
+while i>0:
     print('*'*i)
+    i -=1
+
+#convert 1st 3 letters to upper
+
+s='Priya Swami'
+convert= s[:3].upper()+s[3:].lower()
+print(convert)
