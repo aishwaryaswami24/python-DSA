@@ -18,7 +18,11 @@ while i>=n:
     i +=1
 
 i=n-1
+i=0
 
+while i<n:
+    print('*'*i)
+    i -=1
 
 
 
