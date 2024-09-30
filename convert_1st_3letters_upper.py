@@ -43,7 +43,8 @@ print(even_ls1)
 print(odd_ls2)
 
 
-
+lst1=[1,2,5,3]
+lst2=[1,3,5,6]
 
 
 
