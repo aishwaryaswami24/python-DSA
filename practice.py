@@ -257,4 +257,8 @@
 #half diamond
 n=5
 i=1
-while
+while i>=n:
+    print('*'*i)
+    i += 1
+
+i
