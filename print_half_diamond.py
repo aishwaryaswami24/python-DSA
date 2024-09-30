@@ -17,5 +17,8 @@ while i>=n:
     print('*'*i)
     i +=1
 
+i=n-1
+
+
 
 
