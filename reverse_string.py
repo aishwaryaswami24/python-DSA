@@ -15,11 +15,8 @@
 
 
 #simple hello reverse code
-
 def reverse_string(s):
-    return s[::-1]
-#Slicing with [::-1] reverses the string by iterating backward
+    return s[::-1].upper()
 
-
-s='hello'
-print(reverse_string(s))
+s='Hello World'
+print('reverse_string:',reverse_string(s))
