@@ -311,6 +311,6 @@ else:
     print('end')
 
 #
-for i in range(1):
+for i in range(1,4,1):
     print(i)
 
