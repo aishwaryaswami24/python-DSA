@@ -310,3 +310,7 @@ for i in range(0,1):
 else:
     print('end')
 
+#
+for i in range(1):
+    print(i)
+
