@@ -288,3 +288,8 @@ sentence="hello world hello"
 print(occrance_word(sentence))
 
 
+#capitalize
+def capital_word(s):
+    s.capitalize()
+s='word'
+print(capital_word(s))
