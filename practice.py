@@ -299,6 +299,6 @@ print(capital_word(s))
 def longest_word(s):
     word=s.split()
     print(word)
-    return max(word,key)
+    return max(word,key=len)
 s="konichiwa world "
 print(longest_word(s))
