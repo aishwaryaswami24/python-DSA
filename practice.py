@@ -304,11 +304,11 @@
 # print(longest_word(s))
 #
 
-#range
-for i in range(0,1):
-    print(i)
-else:
-    print('end')
+# #range
+# for i in range(0,1):
+#     print(i)
+# else:
+#     print('end')
 
 #
 for i in range(1,4,1):
