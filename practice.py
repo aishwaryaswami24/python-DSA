@@ -254,23 +254,36 @@
 #
 #
 
-#half diamond
-n=5
-i=1
-while i<=n:
-    print('*'*i)
-    i += 1
+# #half diamond
+# n=5
+# i=1
+# while i<=n:
+#     print('*'*i)
+#     i += 1
+#
+# i=n-1
+# while i>0:
+#     print('*'*i)
+#     i -=1
+#
+# #convert 1st 3 letters to upper
+#
+# s='Priya Swami'
+# convert= s[:3].upper()+s[3:].lower()
+# print(convert)
+#
+# convert1=s[:4].lower()+s[4:].upper()
+# print(convert1)
 
-i=n-1
-while i>0:
-    print('*'*i)
-    i -=1
 
-#convert 1st 3 letters to upper
+#occrance of each word in sentence
+from collections import Counter
+def occrance_word(sentence):
+   words= sentence.split()
+   return Counter(words)
 
-s='Priya Swami'
-convert= s[:3].upper()+s[3:].lower()
-print(convert)
 
-convert1=s[:4].lower()+s[4:].upper()
-print(convert1)
+sentence="hello world hello"
+print(occrance_word(sentence))
+
+
