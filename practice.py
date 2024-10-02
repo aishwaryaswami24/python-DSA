@@ -290,6 +290,9 @@ print(occrance_word(sentence))
 
 #capitalize
 def capital_word(s):
-    s.capitalize()
+    return s.capitalize()
 s='word'
 print(capital_word(s))
+
+
+#longest
