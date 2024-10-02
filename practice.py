@@ -280,6 +280,7 @@
 from collections import Counter
 def occrance_word(sentence):
    words= sentence.split()
+   print(words)
    return Counter(words)
 
 
