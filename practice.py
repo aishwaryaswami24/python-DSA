@@ -277,28 +277,32 @@
 
 
 #occrance of each word in sentence
-from collections import Counter
-def occrance_word(sentence):
-   words= sentence.split()
-   print(words)
-   return Counter(words)
+# from collections import Counter
+# def occrance_word(sentence):
+#    words= sentence.split()
+#    print(words)
+#    return Counter(words)
+#
+#
+# sentence="hello world hello"
+# print(occrance_word(sentence))
+#
+#
+# #capitalize
+# def capital_word(s):
+#     return s.capitalize()
+# s='word'
+# print(capital_word(s))
+#
+#
+# #longest
+# def longest_word(s):
+#     word=s.split()
+#     print(word)
+#     return max(word,key=len)
+# s="konichiwa world "
+# print(longest_word(s))
+#
 
-
-sentence="hello world hello"
-print(occrance_word(sentence))
-
-
-#capitalize
-def capital_word(s):
-    return s.capitalize()
-s='word'
-print(capital_word(s))
-
-
-#longest
-def longest_word(s):
-    word=s.split()
-    print(word)
-    return max(word,key=len)
-s="konichiwa world "
-print(longest_word(s))
+#range
+for i in range(0,1):
