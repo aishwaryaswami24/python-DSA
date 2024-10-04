@@ -317,7 +317,8 @@
 
 def reverse_str(s):
     return s[::-1]
-s='Aish'
+s='Aish swami'
 print(reverse_str(s))
 print(s.title())
+print(s.capitalize())
 
