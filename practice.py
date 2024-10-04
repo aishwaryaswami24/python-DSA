@@ -326,6 +326,7 @@ print(s==s[::-1])
 
 lst=[1,32,45,9,0,4]
 even_count=0
+for i in lst:
 
 
 
