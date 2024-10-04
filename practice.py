@@ -324,7 +324,7 @@ print(s.capitalize())
 print(' '.join(s.split()[::-1]))
 print(s==s[::-1])
 
-lst=[1,32,45,9,0,4]
+lst=[1,32,45,9,4]
 even_count=0
 odd_count=0
 for i in lst:
