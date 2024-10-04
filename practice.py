@@ -315,5 +315,6 @@
 #     print(i)
 #
 
+def reverse_str(s):
 s='Aish'
 print(revsere_str(s))
