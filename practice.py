@@ -333,6 +333,7 @@ for i in lst:
     else:
         odd_count +=1
 print(even_count)
+print(odd_count)
 
 
 
