@@ -322,4 +322,5 @@ print(reverse_str(s))
 print(s.title())
 print(s.capitalize())
 print(' '.join(s.split()[::-1]))
+print(s==s[::-1])
 
