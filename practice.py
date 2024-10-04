@@ -316,3 +316,4 @@
 #
 
 s='Aish'
+print(revsere_str(s))
