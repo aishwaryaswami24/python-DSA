@@ -335,5 +335,12 @@ for i in lst:
 print(even_count)
 print(odd_count)
 
+ls=[1,2,3,4]
+even_lst=[]
+for i in ls:
+    if i%2==0:
+        even_lst.append(i)
+print(even_lst)
+
 
 
