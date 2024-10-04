@@ -321,4 +321,5 @@ s='Aish swami'
 print(reverse_str(s))
 print(s.title())
 print(s.capitalize())
+print(' '.join(s.split()[::-1]))
 
