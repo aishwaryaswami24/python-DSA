@@ -324,3 +324,6 @@ print(s.capitalize())
 print(' '.join(s.split()[::-1]))
 print(s==s[::-1])
 
+lst=[1,32,45,9,0,4]
+
+
