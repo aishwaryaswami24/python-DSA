@@ -326,9 +326,12 @@ print(s==s[::-1])
 
 lst=[1,32,45,9,0,4]
 even_count=0
+odd_count=0
 for i in lst:
     if i%2==0:
         even_count +=1
+    else:
+        odd_count +=1
 print(even_count)
 
 
