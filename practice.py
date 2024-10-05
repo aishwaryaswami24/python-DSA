@@ -344,4 +344,5 @@
 
 #even odd no
 def main():
+    num=int(input('enter num'))
 
