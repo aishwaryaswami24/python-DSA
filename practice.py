@@ -315,32 +315,33 @@
 #     print(i)
 #
 
-def reverse_str(s):
-    return s[::-1]
-s='Aish swami'
-print(reverse_str(s))
-print(s.title())
-print(s.capitalize())
-print(' '.join(s.split()[::-1]))
-print(s==s[::-1])
+# def reverse_str(s):
+#     return s[::-1]
+# s='Aish swami'
+# print(reverse_str(s))
+# print(s.title())
+# print(s.capitalize())
+# print(' '.join(s.split()[::-1]))
+# print(s==s[::-1])
+#
+# lst=[1,32,45,9,4]
+# even_count=0
+# odd_count=0
+# for i in lst:
+#     if i%2==0:
+#         even_count +=1
+#     else:
+#         odd_count +=1
+# print(even_count)
+# print(odd_count)
+#
+# ls=[1,2,3,4]
+# even_lst=[]
+# for i in ls:
+#     if i%2==0:
+#         even_lst.append(i)
+# print(even_lst)
 
-lst=[1,32,45,9,4]
-even_count=0
-odd_count=0
-for i in lst:
-    if i%2==0:
-        even_count +=1
-    else:
-        odd_count +=1
-print(even_count)
-print(odd_count)
-
-ls=[1,2,3,4]
-even_lst=[]
-for i in ls:
-    if i%2==0:
-        even_lst.append(i)
-print(even_lst)
-
-
+#even odd no
+def main():
 
