@@ -346,5 +346,6 @@
 def main():
     num=int(input('enter num'))
     if is_even(num):
+        print('Even')
 
 
