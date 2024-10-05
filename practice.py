@@ -343,21 +343,21 @@
 # print(even_lst)
 
 #even odd no
-def main():
-    num=int(input('enter num:'))
-    if is_even(num):
-        print('Even')
-    else:
-        print('Odd')
-
-def is_even(x):
-    if x%2==0:
-        return True
-    else:
-        return False
-
-main()
+# def main():
+#     num=int(input('enter num:'))
+#     if is_even(num):
+#         print('Even')
+#     else:
+#         print('Odd')
+#
+# def is_even(x):
+#     if x%2==0:
+#         return True
+#     else:
+#         return False
+#
+# main()
 
 name='Aishwarya'
 print(name.lower())
-
+print(name.islower())
