@@ -344,7 +344,7 @@
 
 #even odd no
 def main():
-    num=int(input('enter num'))
+    num=input(int('enter num'))
     if is_even(num):
         print('Even')
     else:
@@ -355,5 +355,7 @@ def is_even(x):
         return True
     else:
         return False
+
+main()
 
 
