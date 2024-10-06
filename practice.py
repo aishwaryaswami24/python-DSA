@@ -364,4 +364,5 @@
 
 #lambda
 add=lambda x,y:x+y
-add(2,3)
+add=add(2,3)
+print(add)
