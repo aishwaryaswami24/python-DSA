@@ -382,4 +382,8 @@ s2='shia'
 print(annagram_find(s1,s2))
 
 #remove duplicates from string
+def remove_dupstr(s):
+    return sorted(s)
+s='abcdcdda'
+print(remove_dupstr(s))
 
