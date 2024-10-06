@@ -369,5 +369,14 @@ print(add)
 
 #vowels
 def vowels_count(s):
+    vowels='aeiouAEIOU'
+    return sum(1 for char in s if char in vowels)
 s='Hello World'
 print(vowels_count(s))
+
+#annagrams
+def annagram_find(s1,s2):
+    return sorted(s1)==sorted(s2)
+s1='aish'
+s2='shia'
+print(annagram_find(s1,s2))
