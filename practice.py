@@ -358,6 +358,9 @@
 #
 # main()
 
-name='Aishwarya'
-print(name.lower())
-print(name.islower())
+# name='Aishwarya'
+# print(name.lower())
+# print(name.islower())
+
+#lambda
+add=lambda
