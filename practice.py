@@ -363,4 +363,4 @@
 # print(name.islower())
 
 #lambda
-add=lambda
+add=lambda x,y
