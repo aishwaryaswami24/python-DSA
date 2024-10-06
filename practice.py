@@ -366,3 +366,8 @@
 add=lambda x,y:x+y
 add=add(2,3)
 print(add)
+
+#vowels
+def vowels_count(s):
+s='Hello World'
+print(vowels_count(s))
