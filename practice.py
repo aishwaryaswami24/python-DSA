@@ -398,3 +398,6 @@ print(dup)
 
 
 #convert 1st 3 letters to upper and rest to lower
+
+s='terebi mimasu'
+print(upper_lower(s))
