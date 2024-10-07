@@ -393,3 +393,5 @@ lst2=[2,3,4,1,0]
 dup=[]
 for i in lst1:
     if i in lst2:
+        dup.append(i)
+
