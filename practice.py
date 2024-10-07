@@ -405,6 +405,6 @@ s='terebi mimasu'
 print(upper_lower(s))
 
 #convert floating number to rounded number
-x=float(input('enter the value:'))
-y=
-print(x.round())
+x=float(input('enter the value1:'))
+y=float(input('enter the value2:'))
+print(round(x+y))
