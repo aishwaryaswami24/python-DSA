@@ -394,5 +394,6 @@ dup=[]
 for i in lst1:
     if i in lst2:
         dup.append(i)
+print(dup)
 
 
