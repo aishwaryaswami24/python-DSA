@@ -397,3 +397,4 @@ for i in lst1:
 print(dup)
 
 
+#convert 1st 3 letters to upper and rest to lower
